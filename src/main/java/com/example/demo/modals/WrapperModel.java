@@ -2,6 +2,7 @@ package com.example.demo.modals;
 
 public class WrapperModel {
     private String url;
+    private String method;
     private Object data;
 
     public Object getData() {
@@ -18,5 +19,13 @@ public class WrapperModel {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public String getMethod() {
+        return method;
+    }
+
+    public void setMethod(String method) {
+        this.method = method;
     }
 }
